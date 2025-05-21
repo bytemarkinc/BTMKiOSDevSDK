@@ -16,54 +16,6 @@
 		<data>
 		/L2EJm2lzFpfmOdGMm439MXL1as=
 		</data>
-		<key>FBLPromises_Privacy.bundle/Info.plist</key>
-		<data>
-		2SJBPs18s3FNJdSkWFi6sH419Fo=
-		</data>
-		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ZajnvEs/MYRS3X4TPLAhBWi8mc4=
-		</data>
-		<key>FirebaseABTesting_Privacy.bundle/Info.plist</key>
-		<data>
-		EGM+BtTRwywIpjTcHuSfiPaL7/o=
-		</data>
-		<key>FirebaseABTesting_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		6iBlSEWzrD6zouHx4NqeDhjKSGQ=
-		</data>
-		<key>FirebaseCoreInternal_Privacy.bundle/Info.plist</key>
-		<data>
-		dIWXjXWcOnbWQS+DLBwzbKFWF8I=
-		</data>
-		<key>FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		ifoThrqbbqoLG4yjAruMQRaf0Dw=
-		</data>
-		<key>FirebaseCore_Privacy.bundle/Info.plist</key>
-		<data>
-		qk73iW3e0Nr73sWOpS1Od+FHOQQ=
-		</data>
-		<key>FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		sa2OhFlqdCIyz9oV7fUdDKWzFL0=
-		</data>
-		<key>FirebaseInstallations_Privacy.bundle/Info.plist</key>
-		<data>
-		HFOGaTL0e3zlqyQSsXrCO+OMbIE=
-		</data>
-		<key>FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		WXQUJr75eMRgiVnLGyf8Gr3uLUU=
-		</data>
-		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
-		<data>
-		AIabOnXvfOTLtpmPrFulHXgh/uM=
-		</data>
-		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		9Dge7JFNlx7Vk430tsjNsK3d0Ng=
-		</data>
 		<key>Headers/APIErrorDefines.h</key>
 		<data>
 		JrO5u8H+Nqfe65tQGUieD3lvlNM=
@@ -884,65 +836,9 @@
 		<data>
 		UAPewAqxwV2y4bWkAINSjVOYNcA=
 		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/Info.plist</key>
-		<data>
-		/UCeRQijxj7vxL4v04A4LbjwHxI=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/banner-view-vc.nib</key>
-		<data>
-		idxQIbJ8pyUaoA3sfzQJu4inTBQ=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/card-view-vc.nib</key>
-		<data>
-		lfm6/R44C3bDC/K9Fct35ClMfXU=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/image-only-vc.nib</key>
-		<data>
-		hHW/BmVfsB1RIRrMY9mp5/dpyXs=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/lGH-bl-7Xw-view-ef6-R8-q1S.nib</key>
-		<data>
-		wcjuE9wxKSqxKl1rt/1XF12hJBM=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/lbb-HM-tHJ-view-vRb-yf-OWE.nib</key>
-		<data>
-		kShpjiJTjAZbf/ESEIjoAGBvTMk=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/modal-view-vc.nib</key>
-		<data>
-		S0v23T4w3UtyerpWL6OhbqFySsQ=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/oTF-1C-LZP-view-SM1-hn-m3n.nib</key>
-		<data>
-		FCENhy+PwqiGq/vmE/zbTSaRErA=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/x01-lq-3r6-view-1pz-BP-O6T.nib</key>
-		<data>
-		/8XaBCYkGtcp0dg9XmigzCLyr88=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/Info.plist</key>
-		<data>
-		bFu9XP+MCHRh9S2B+UR4vR29xII=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/close-with-transparency.png</key>
-		<data>
-		GoggQbw75TZ36QWfZ7DxuB96/ts=
-		</data>
-		<key>InAppMessagingDisplayResources.bundle/close-with-transparency@2x.png</key>
-		<data>
-		8eDLQt3YEZp/I4VkUtocDmv90mY=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		C/uhNk6H0mwGr0XcBUuDVNwbDWA=
-		</data>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<data>
-		WUjgG30uhOYMFW5Vqfeqmfif9I0=
-		</data>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		hGVuuzmjt5sKGjVNh+ZspIKBF7c=
 		</data>
 		<key>Modules/BMTCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -972,22 +868,6 @@
 		<data>
 		DR1EBMgtMYys5T5pcdU2qkhb46E=
 		</data>
-		<key>SQLCipher.bundle/Info.plist</key>
-		<data>
-		cIjmcKtr9JgSqUJS/LyfwHN/7yA=
-		</data>
-		<key>SQLCipher.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		XlCI/kohzH7fliRXMuzQdaRPSpE=
-		</data>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<data>
-		faiwRYlFzPOjck1y3PytHKhXNSM=
-		</data>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		F6mYXr6EQZyLKcQNM0vmTGcGMns=
-		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -1006,14 +886,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>nanopb_Privacy.bundle/Info.plist</key>
-		<data>
-		O8SngLy8AMGVsgcAiuD8z+pHLTk=
-		</data>
-		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<data>
-		KY5lfwC2TvsgFj4wt7hkMmainbs=
-		</data>
 		<key>pt-BR.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -1081,90 +953,6 @@
 			<key>hash2</key>
 			<data>
 			TQKl6eq1jkkuuHQvvMh65xoPKt8hdvrZNHvt254cg48=
-			</data>
-		</dict>
-		<key>FBLPromises_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VzBcQ4Zp7I6w7yWnRu9jAEFjT4LYTGCL+Mc32hd+uoc=
-			</data>
-		</dict>
-		<key>FBLPromises_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dLDNcvwjwe8wLyLuJ1P2GBfNxa8P96fy0GMrUk+4rOo=
-			</data>
-		</dict>
-		<key>FirebaseABTesting_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dZNCXvu10IEJHzfAJ2ytH5yjb9mC0MGFNtt5Fd/PJG4=
-			</data>
-		</dict>
-		<key>FirebaseABTesting_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E3fszt/4+DIPeAQOnJ0+F+zA6laVlLVq8O8XvkQZfHo=
-			</data>
-		</dict>
-		<key>FirebaseCoreInternal_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qFOpifjMxTwnBcnElCRMOyqUrrYTbgt3/WJbzn+Xzpw=
-			</data>
-		</dict>
-		<key>FirebaseCoreInternal_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W3/peUI97ePgivwppC8A9ghiddxUioTCl3QjWGPu0+8=
-			</data>
-		</dict>
-		<key>FirebaseCore_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6qUVC5cFu9J7LWwOz8WTy+9BFk1jZXeAJ4qfwxm8IoQ=
-			</data>
-		</dict>
-		<key>FirebaseCore_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EeMfX2tg6A69WQFUn85QQ/mvPmg/h0AilFAAtAUwbD8=
-			</data>
-		</dict>
-		<key>FirebaseInstallations_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6V8pkmi3VcgoyporiATzXPS8RxQnuOgDUqdfgm1LuQY=
-			</data>
-		</dict>
-		<key>FirebaseInstallations_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z7s8T3ambVNpi66R9xEMAPIUjm5vE619MlkpCbwBDlE=
-			</data>
-		</dict>
-		<key>GoogleUtilities_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			97BZCSnr672k2BvplubMtGT/WH0Bw2KZmY9+E1kfwLw=
-			</data>
-		</dict>
-		<key>GoogleUtilities_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+Btc+PBDZicS7KnpeFdnJkzxkAJf5720l3cpbAaN5Tw=
 			</data>
 		</dict>
 		<key>Headers/APIErrorDefines.h</key>
@@ -2602,104 +2390,6 @@
 			oisYLce7OmTK5zLwTwiEoZcMe0OPwSHvCOTHq9hHfQs=
 			</data>
 		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7IKd0SjT3NAkg2uEUFCnyjhs+HfZ+vPwu4bAtilMvVQ=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/banner-view-vc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dy4vgxrz9+tWVajhzNKQ4kHi9WXC72XrDZBLfOO5TUQ=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/card-view-vc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n3LELIH+6T+/S6TPC+BsAYylhQ6XXswwNSjkTtnKCaA=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/image-only-vc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EaKzXk2n37Tzs+XmYkrGfbtCI6i6L7q/4WbQWUKVtQc=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/lGH-bl-7Xw-view-ef6-R8-q1S.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tc5jG2klHoROqLA2qd2+2vxpDbZ4T5PUi92k5cbmNXs=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/lbb-HM-tHJ-view-vRb-yf-OWE.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EnDWEmBnQ4vUR+q8ZerzIuZ5B85PIxTlG/ru9tflzMs=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/modal-view-vc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FJe1m/LmLxdwvnppAwYj9EADdtcod7yGnuR5su/Lwic=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/oTF-1C-LZP-view-SM1-hn-m3n.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			R+yejrtfFm3z3IqWDfn/9rF8S1Dj2qFHT5YgPAh7ea4=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/FIRInAppMessageDisplayStoryboard.storyboardc/x01-lq-3r6-view-1pz-BP-O6T.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			78BtFvNiXWZPmZjhZP2SRI02ML6i5DsYyv4xyPD5jME=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2V3uesXun5Ewb3qN8vuQZVkDlH45N/4L8dQvcpDa3uE=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/close-with-transparency.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sUGSdKe4ENAEZz1wk9ff5v/V3WxjA5Dls+pvJ0nJbVo=
-			</data>
-		</dict>
-		<key>InAppMessagingDisplayResources.bundle/close-with-transparency@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			epztjk+/lQaqFpxW1qUAmSWhghhvmk/Z6Iac7dxggcg=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			20EOnB3HbCwaGQEuTP2HvE5FKNhRGfSAWtwLfnQYb5g=
-			</data>
-		</dict>
-		<key>Kingfisher.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yFi3Q8Y5579kQ1TeQdEowO5K8T00j1zU5gSSpLKH2/k=
-			</data>
-		</dict>
 		<key>Modules/BMTCoreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -2749,34 +2439,6 @@
 			R/n/ZLWubSKCq697xeCwWKvkibLXoxFgRvwDJ3pqW+A=
 			</data>
 		</dict>
-		<key>SQLCipher.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J4251xRqj5Ye/Rh+HVkc31OjBpgrDsMWRXa+MnkilrA=
-			</data>
-		</dict>
-		<key>SQLCipher.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k2J5a6gAp7QWmDTv+L3pkIZvQBFP97qsACuLrlQ+jdE=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y/uj/aPojYQ2vJjitrzuqlUUBMY4CsGJaSlAUZkkh9o=
-			</data>
-		</dict>
-		<key>SnapKit_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
-			</data>
-		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
@@ -2794,20 +2456,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>nanopb_Privacy.bundle/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6BPGRov/R9btWSDUR7eMELYYHhOX2xRwAbn20Vw4QRI=
-			</data>
-		</dict>
-		<key>nanopb_Privacy.bundle/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cpujy9D0WMeM1h7fFzUO2v4ONMqG4xTsZMjLIszSG1Q=
-			</data>
 		</dict>
 		<key>pt-BR.lproj/Localizable.strings</key>
 		<dict>
