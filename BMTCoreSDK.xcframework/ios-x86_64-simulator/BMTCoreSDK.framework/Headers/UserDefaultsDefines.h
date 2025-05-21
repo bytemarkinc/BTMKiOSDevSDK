@@ -1,0 +1,58 @@
+//
+//  UserDefaultsDefines.h
+//  BMPassSDK
+//
+//  Created by Apoorva Reed on 3/26/20.
+//  Copyright © 2020 Bytemark. All rights reserved.
+//
+
+#ifndef UserDefaultsDefines_h
+#define UserDefaultsDefines_h
+
+#define kUSER_DEFAULTS_APPLEIDENTIFIER @"appleUserIdentifier"
+#define kUSER_DEFAULTS_ENABLETRANSFERVIRTUALCARD @"enable_transfer_virtual_card"
+#define kUSER_DEFAULTS_PHONE_PIN_LENGTH @"phone_pin_length"
+#define kUSER_DEFAULTS_ZIPCODE_FOR_INCOMM @"zip_code_for_incomm"
+#define kUSER_DEFAULTS_COUNTRYCODE_FOR_INCOMM @"country_code_for_incomm"
+#define kUSER_DEFAULTS_MAX_VALUE_FOR_INCOMM @"max_value_for_incomm"
+#define kUSER_DEFAULTS_MIN_VALUE_FOR_INCOMM @"min_value_for_incomm"
+#define kUSER_DEFAULTS_IS_CARD_TRANSFER_ENABLED @"is_card_transfer_enabled"
+#define kUSER_DEFAULTS_IS_ADD_CARD_ALERT_ENABLED @"credit_card_alert_message_enabled"
+#define kUSER_DEFAULTS_IS_APP_RATING_DISABLED @"is_app_rating_disabled"
+#define kUSER_DEFAULTS_IS_MULTI_AGENCY_SYSTEM @"multi_agency_system"
+#define kUSER_DEFAULTS_IS_SHOW_AGENCY_LONG_NAME_ON_SELECTION @"show_agency_long_name_on_selection"
+#define kUSER_DEFAULTS_IS_BARCODE_ENABLED  @"is_display_barcode"
+#define kUSER_DEFAULTS_SHOW_2FA @"is_mfa_enabled"
+#define kUSER_DEFAULTS_APPLE_PAY_MERCHANT_ID_PARENT_LEVEL @"apple_pay_merchant_id"
+
+#define kUSER_DEFAULTS_IS_PAYMENT_CHECK_REQUIRED @"is_payment_check_required"
+#define kUSER_DEFAULTS_SERVICE_LEVEL_LOCAL @"service_level_local"
+#define kUSER_DEFAULTS_SERVICE_LEVEL_COMMUTER @"service_level_commuter"
+#define kUSER_DEFAULTS_ENCRYPTED_PAYLOAD_EXPIRATION @"payload_expiration"
+#define kUSER_DEFAULTS_IS_NMI_ENABLED @"is_nmi_enabled"
+#define kUSER_DEFAULTS_APPLEPAY_ENABLED_FOR_STORE_SCREEN @"apple_pay_enabled_on_store_screen"
+#define kUSER_DEFAULTS_SHOW_FARECAPPINGINFO_VIEW @"show_farecapping_info"
+#define kUSER_DEFAULTS_SHOW_CREATEVIRTUALCARDINFO_VIEW @"show_createVirtualCard_info"
+#define kUSER_DEFAULTS_SHOW_CARDLINLIKINGINFO_VIEW @"show_cardLinkingView_info"
+#define kUSER_DEFAULTS_ALLOWED_CARD_TRANSFER_COUNT @"allowed_card_transfer_count"
+#define kUSER_DEFAULTS_ALLOWED_CARD_TRANSFER_DAYS_INTERVAL @"allowed_card_transfer_days_interval"
+#define kUSER_DEFAULTS_IS_TRANSFER_RESTRICTION_ENABLED @"is_transfer_restriction_enabled"
+#define kUSER_DEFAULTS_HIDE_CREATE_IF_TRANSFERABLE_CARD_AVAILABLE @"hide_create_if_transferable_card_available"
+#define kUSER_DEFAULTS_DISABLE_FARE_CATEGORY_SELECTION @"disable_fare_category_selection"
+#define kUSER_DEFAULTS_ENABLE_REMOVE_VIRTUAL_CARD @"enable_remove_virtual_card"
+#define kUSER_DEFAULTS_SHOW_TIME_SYNC_ALERT @"show_time_sync_alert"
+#define kUSER_DEFAULTS_SHOW_COMMUTER_BENIFIT_CARD_ALLOWED @"is_commuter_benefit_funds_allowed"
+#define kUPASS_VERIFICATION_CODE_REQUIRED @"upass_registration_code_required"
+#define kUSER_DEFAULTS_IS_HYBRID_APP @"is_hybrid_app"
+#define kUSER_DEFAULTS_IS_LINK_EXISTING_CARD_ENABLED @"closed_loop_physical_card_enabled"
+#define kUSER_DEFAULTS_IS_SHOW_VISUAL_VALIDATION_ON_USE_SCREEN @"show_visual_validation_on_use_screen"
+#define kUSER_DEFAULTS_VISUAL_VALIDATION_ACTIVE_FARE_TIME_TYPE @"active_fare_time_type"
+#define kUSER_DEFAULTS_VISUAL_VALIDATION_ACTIVE_FARE_TIME_TYPE_ACTIVATED_ON @"activated_on"
+#define kUSER_DEFAULTS_VISUAL_VALIDATION_ACTIVE_FARE_TIME_TYPE_EXPIRES_ON @"expires_on"
+#define kUSER_DEFAULTS_DEFAULT_SELECT_PAYMENT_METHOD_FALLBACK @"show_select_if_no_default_payment_set"
+#define kUSER_DEFAULTS_ENABLE_PASS_AUTO_RENEWAL_WITH_WALLET_AND_CASH @"enable_pass_auto_renewal_with_wallet_and_cash"
+#define kUSER_DEFAULTS_USE_CUSTOM_INAPPMESSAGINGUI_KEY @"use_custom_in_app_messaging_ui"
+#define kUSER_DEFAULTS_IS_OPEN_LOOP_ENABLED @"is_open_loop_enabled"
+#define kUSER_DEFAULTS_HIDE_CREATE_VIRTUAL_CARD_KEY @"hide_create_virtual_card_tab"
+
+#endif /* UserDefaultsDefines_h */

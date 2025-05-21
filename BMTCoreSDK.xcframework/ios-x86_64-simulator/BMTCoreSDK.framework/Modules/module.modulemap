@@ -1,0 +1,11 @@
+framework module BMTCoreSDK {
+  umbrella header "BMTCoreSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module BMTCoreSDK.Swift {
+  header "BMTCoreSDK-Swift.h"
+  requires objc
+}

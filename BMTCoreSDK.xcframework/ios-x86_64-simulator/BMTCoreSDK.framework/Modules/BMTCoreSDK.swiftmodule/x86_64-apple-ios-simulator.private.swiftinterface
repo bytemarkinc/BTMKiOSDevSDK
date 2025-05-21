@@ -1,0 +1,660 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BMTCoreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+@_exported import BMTCoreSDK
+import CoreData
+import Foundation
+import Kingfisher
+import Masonry
+import MessageUI
+import Network
+import PassKit
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class BMWLMailComposeViewController : MessageUI.MFMailComposeViewController, MessageUI.MFMailComposeViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc public func mailComposeController(_ controller: MessageUI.MFMailComposeViewController, didFinishWith result: MessageUI.MFMailComposeResult, error: (any Swift.Error)?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class BMWLButtonTextWithArrowImage : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency convenience public init(title: Swift.String)
+  @objc deinit
+}
+@objc @objcMembers public class BMWLOrgModel : Foundation.NSSecureUnarchiveFromDataTransformer, Swift.Codable, Foundation.NSCoding {
+  @objc public var legacyUUID: Swift.String?
+  @objc public var fullName: Swift.String?
+  @objc public var imagePath: Swift.String?
+  @objc public var location: Swift.String?
+  @objc public var systemSource: Swift.String?
+  @objc public var baseURL: Swift.String?
+  @objc public var organizationUUID: Swift.String?
+  @objc public var shortName: Swift.String?
+  @objc public var orgName: Swift.String {
+    @objc get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc public func encode(with coder: Foundation.NSCoder)
+  @objc required public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public typealias SuccessCompletion = (Swift.Bool) -> ()
+@objc @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class BMWLNotificationsWebViewController : BMTCoreSDK.BMWebViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public init(notification: BMTCoreSDK.BMWLNotificationViewModel?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class BMLogging : ObjectiveC.NSObject {
+  open class func dLog(message: Swift.String, function: Swift.String = #function)
+  open class func dclLog(_ message: Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.Int = #line)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIFont {
+  @objc dynamic public func restrictFont() -> UIKit.UIFont
+  @objc dynamic public func restrictFont(scale: CoreFoundation.CGFloat = 2) -> UIKit.UIFont
+}
+@objc @objcMembers public class DBCreation : ObjectiveC.NSObject {
+  @objc public init(typeOfDataStore: BMTCoreSDK.DataStoreType = .CoreData)
+  @objc public func createDataBase(name: Swift.String, success: () -> (), failure: (any Swift.Error) -> ())
+  @objc public func createTable(name: Swift.String, parameters: [Swift.String : Any], success: () -> (), failure: (any Swift.Error) -> ())
+  @objc public func insertDataIntoTable(name: Swift.String, parameters: [Swift.String : Any], successCompletionHandler: () -> (), failureCompletionHandler: (any Swift.Error) -> ())
+  @objc public func updateDataIntoTable(name: Swift.String, parameters: [Swift.String : Any], predicate: Foundation.NSPredicate?, successCompletionHandler: () -> (), failureCompletionHandler: (any Swift.Error) -> ())
+  @objc public func fetchDataFromTable(name: Swift.String, key: Swift.String, predicate: Foundation.NSPredicate?, successWithDataCompletionHandler: (Swift.Bool, [Swift.String : Any]?) -> (), failureCompletionHandler: (any Swift.Error) -> ())
+  @objc public func deleteDataFromTable(name: Swift.String, predicate: Foundation.NSPredicate?, successCompletionHandler: () -> (), failureCompletionHandler: (any Swift.Error) -> ())
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class BMWLChangeAgencyHeaderView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let orgLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let changeAgencyButton: UIKit.UIButton
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency public func setEmpty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc open class BTMKMenuItemAction : ObjectiveC.NSObject {
+  @objc open var type: Swift.String?
+  @objc open var context: Any?
+  @objc open var additionalInfo: [Swift.AnyHashable : Any]?
+  @objc open var callback: (() -> Swift.Void)?
+  @objc override dynamic public init()
+  @objc open func performAction(sender: Any, withTitle title: Swift.String?) -> Swift.Bool
+  @objc open func performAction(sender: Any, withTitle title: Swift.String?, userInfo: Any?) -> Swift.Bool
+  @objc deinit
+}
+extension Swift.String {
+  public var underLined: Foundation.NSAttributedString {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class OrgConfig : ObjectiveC.NSObject {
+  @objc public static func getOrgConfig(with orgId: Swift.String, key: Swift.String) -> Any?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BMTAnalyticsHandler : ObjectiveC.NSObject {
+  @objc public static var logContentViewClosure: ((_ eventName: Swift.String, _ contentType: Swift.String, _ contentId: Swift.String, _ attr: [Swift.String : Any]) -> Swift.Void)?
+  @objc public static var logCustomEventClosure: ((_ eventName: Swift.String, _ attr: [Swift.String : Any]) -> Swift.Void)?
+  @objc public static var reportLoginStatusClosure: ((_ loginStatus: Swift.String) -> Swift.Void)?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @objcMembers public class BMWLNotificationViewModel : ObjectiveC.NSObject {
+  @objc dynamic public var shortMessage: Swift.String?
+  @objc dynamic public var message: Swift.String?
+  @objc dynamic public var title: Swift.String?
+  @objc dynamic public var urlString: Swift.String?
+  @objc dynamic public var uuid: Swift.String? {
+    get
+  }
+  @objc public var model: BMTCoreSDK.BMNotification?
+  @objc dynamic public var hasBeenSeen: Foundation.NSNumber?
+  @objc public init(model: BMTCoreSDK.BMNotification)
+  @objc public func shouldOpenURL() -> Swift.Bool
+  @objc deinit
+}
+public class AlertView {
+  @objc public init()
+  public func presentAlert(tittle: Swift.String, message: Swift.String, actionTittles: [Swift.String], actionStyle: [UIKit.UIAlertAction.Style], action: [(UIKit.UIAlertAction) -> Swift.Void])
+  public func presentAlertWithTitle(title: Swift.String, message: Swift.String, options: Swift.String..., actionStyle: UIKit.UIAlertAction.Style..., isDefaultButtonBold: Swift.Bool, completion: @escaping (Swift.Int) -> Swift.Void)
+  @objc deinit
+}
+@objc public enum FontSize : Swift.Int {
+  case Small6 = 6
+  case Small7 = 7
+  case Small8 = 8
+  case Small9 = 9
+  case Small10 = 10
+  case Small11 = 11
+  case Small12 = 12
+  case Medium13 = 13
+  case Medium14 = 14
+  case Medium15 = 15
+  case Medium16 = 16
+  case Large17 = 17
+  case Large19 = 19
+  case Large21 = 21
+  case Large23 = 23
+  case Large25 = 25
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UILabel {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func restrictFont(currentFontSize: CoreFoundation.CGFloat) -> UIKit.UIFont
+}
+extension UIKit.UITextField {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func restrictFont(currentFontSize: CoreFoundation.CGFloat) -> UIKit.UIFont
+}
+extension UIKit.UITextView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func restrictFont(currentFontSize: CoreFoundation.CGFloat) -> UIKit.UIFont
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class ChangeAgencyView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let orgLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let changeAgencyButton: UIKit.UIButton
+  @objc @_Concurrency.MainActor @preconcurrency public var changeAgency: (() -> ())?
+  @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
+  @objc @_Concurrency.MainActor @preconcurrency public func setEmpty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BMPSOrganizationConfiguration : ObjectiveC.NSObject {
+  public static func setPINLength(length: Swift.Int)
+  public static func getPINLength() -> Swift.Int
+  public static func setZIPCODEFORINCOMM(zipcode: Swift.String)
+  public static func setCOUNTRYCODEFORINCOMM(countryCode: Swift.String)
+  public static func getZIPCODEFORINCOMM() -> Swift.String
+  public static func getCOUNTRYCODEFORINCOMM() -> Swift.String
+  public static func setMaxValueForINCOMM(maxValue: Swift.String)
+  public static func setMinValueForINCOMM(minValue: Swift.String)
+  @objc public static func getMaxValueForINCOMM() -> Swift.String
+  @objc public static func getMinValueForINCOMM() -> Swift.String
+  public static func setIsTransferCardEnabled(enabled: Swift.Bool)
+  @objc public static func isTransferCardEnabled() -> Swift.Bool
+  public static func setIsAddCreditCardAlertEnabled(enabled: Swift.Bool)
+  @objc public static func isAddCreditCardAlertEnabled() -> Swift.Bool
+  public static func setIsMultiAgencySystem(enabled: Swift.Bool)
+  @objc public static func isMultiAgencySystem() -> Swift.Bool
+  public static func setIsAgencyLongNameOnSelection(enabled: Swift.Bool)
+  @objc public static func isShowAgencyLongNameOnSelection() -> Swift.Bool
+  public static func setPaymentCheckRequired(required: Swift.Bool)
+  @objc public static func isPaymentCheckRequired() -> Swift.Bool
+  public static func setSelectPaymentMethodFallback(required: Swift.Bool)
+  @objc public static func showSelectPaymentMethodFallback() -> Swift.Bool
+  public static func setCMTALocalFilterID(localServiceID: Swift.String)
+  public static func setCMTACommuterFilterID(commuterServiceID: Swift.String)
+  public static func setEncryptedPayloadExpiration(payload: Swift.String)
+  @objc public static func getEncryptedPayloadExpiration() -> Swift.String
+  public static func setNMIEnabled(enabled: Swift.Bool)
+  @objc public static func isNMIEnabled() -> Swift.Bool
+  public static func setApplePayEnabledForStoreScreen(enabled: Swift.Bool)
+  @objc public static func isAppleEnabledForStoreScreen() -> Swift.Bool
+  @objc public static func setApplePayMerchantIDForParentLevel(value: Swift.String)
+  @objc public static func getApplePayMerchantIDForParentLevel() -> Swift.String
+  public static func setIsAppRatingDisabled(disabled: Swift.Bool)
+  @objc public static func isAppRatingDisabled() -> Swift.Bool
+  public static func setAllowedCardTrasnferCount(count: Swift.Int)
+  @objc public static func getAllowedCardTrasnferCount() -> Swift.Int
+  public static func setAllowedCardTrasnferDaysInterval(count: Swift.Int)
+  @objc public static func getAllowedCardTrasnferDaysInterval() -> Swift.Int
+  public static func setIsTransferRestrictionEnabled(enabled: Swift.Bool)
+  @objc public static func isTransferRestrictionEnabled() -> Swift.Bool
+  public static func setHideCreateIfTransferableCardAvailable(hide: Swift.Bool)
+  @objc public static func hideCreateIfTransferableCardAvailable() -> Swift.Bool
+  public static func setDisableFareCategorySelection(enabled: Swift.Bool)
+  @objc public static func isFareCategorySelectionDisabled() -> Swift.Bool
+  public static func setEnableRemoveVirtualCard(enabled: Swift.Bool)
+  @objc public static func isRemoveVirtualCardEnabled() -> Swift.Bool
+  public static func setPassAutoRenewalWithWalletnCashEnabled(enabled: Swift.Bool)
+  @objc public static func passAutoRenewalWithWalletnCashEnabled() -> Swift.Bool
+  public static func setShowTimeSyncAlert(show: Swift.Bool)
+  public static func setBarcodeEnabled(enabled: Swift.Bool)
+  public static func organizationBarcodeConfig(orgId: Swift.String, info: [Swift.String : Any])
+  @objc public static func showTimeSyncAlert() -> Swift.Bool
+  public static func setShow2FAForOrg(enabled: Swift.Bool)
+  @objc public static func is2FAEnabled() -> Swift.Bool
+  public static func setShowCommuterBenifitCardAllowed(show: Swift.Bool)
+  @objc public static func showCommuterBenifitCardAllowed() -> Swift.Bool
+  public static func setUpassVerificationCodeRequired(required: Swift.Bool)
+  @objc public static func upassVerificationCodeRequired() -> Swift.Bool
+  @objc public static func setUseCustomInAppMessageUI(value: Swift.Bool)
+  @objc public static func useCustomInAppMessageUI() -> Swift.Bool
+  public static func isBarcodeEnabled(enabled: Swift.Bool)
+  @objc public static func setIsHybridApp(enabled: Swift.Bool)
+  @objc public static func isHybridApp() -> Swift.Bool
+  @objc public static func setLinkExistingCardSection(enabled: Swift.Bool)
+  @objc public static func setIsOpenLoop(enabled: Swift.Bool)
+  @objc public static func isOpenLoopEnabled() -> Swift.Bool
+  @objc public static func setHideCreateVirtualCardKey(value: Swift.Bool)
+  @objc public static func hideCreateVirtualCard() -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency public class BMWLDeepLinkWebViewController : BMTCoreSDK.BMWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension BMTCoreSDK.BMWLDeepLinkWebViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WebKit.WKNavigation!)
+}
+extension BMTCoreSDK.BMWLDeepLinkWebViewController : BMTCoreSDK.BMInternetConnectionStatusChangedDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func internetConnectionGained()
+}
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class BMWLFloatingTextField : UIKit.UITextField {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc @_Concurrency.MainActor @preconcurrency open func BMWL_editingChanged()
+  @objc @_Concurrency.MainActor @preconcurrency open var titleLabel: UIKit.UILabel?
+  @objc @_Concurrency.MainActor @preconcurrency open var lineView: UIKit.UIView?
+  @objc @_Concurrency.MainActor @preconcurrency open var errorLabel: UIKit.UILabel?
+  @objc @_Concurrency.MainActor @preconcurrency open var titleFadeInDuration: Swift.Double
+  @objc @_Concurrency.MainActor @preconcurrency open var titleFadeOutDuration: Swift.Double
+  public typealias TextFieldShouldChangeCharactersBlock = (UIKit.UITextField?, Foundation.NSRange, Swift.String?) -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency public var textFieldShouldChangeCharactersBlock: BMTCoreSDK.BMWLFloatingTextField.TextFieldShouldChangeCharactersBlock?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var placeholderColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var placeholderFont: UIKit.UIFont? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var titleColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var selectedTitleColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var lineColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var selectedLineColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var errorColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var lineHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var selectedLineHeight: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSecureTextEntry: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var error: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var editingOrSelected: Swift.Bool {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var hasError: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var placeholder: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var topTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var selectedTitle: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func becomeFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func resignFirstResponder() -> Swift.Bool
+  @objc @_Concurrency.MainActor @preconcurrency open func updateColors()
+  @objc @_Concurrency.MainActor @preconcurrency open func placeHolderUpdatedWithMandatory(placeholder: Swift.String, isRequired: Swift.Bool = false)
+  @objc @_Concurrency.MainActor @preconcurrency open func configureTextField(topTitle: Swift.String, placeholder: Swift.String, isRequired: Swift.Bool = false)
+  @objc @_Concurrency.MainActor @preconcurrency open func setTitleVisible(_ titleVisible: Swift.Bool, animated: Swift.Bool = false, animationCompletion: (() -> ())? = nil)
+  @objc @_Concurrency.MainActor @preconcurrency open func isTitleVisible() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func rightViewRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func clearButtonRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor @preconcurrency open func titleLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor @preconcurrency open func lineViewRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor @preconcurrency open func errorLabelRectForBounds(_ bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor @preconcurrency open func titleHeight() -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open func textHeight() -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor @preconcurrency open func errorHeight() -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var description: Swift.String {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor @preconcurrency open func applyThemeFromOrganization(organization: BMTCoreSDK.BTMKOrganization)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class PassKitHelper : ObjectiveC.NSObject {
+  @objc public static func suppressApplePay()
+  @objc public static func enableApplePay()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Swift.Dictionary {
+  public func queryString() -> Swift.String
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers open class BMTCoreSDKInitializer : ObjectiveC.NSObject, BMTCoreSDK.BMInitializer {
+  @objc public static let sharedInitializer: BMTCoreSDK.BMTCoreSDKInitializer
+  @objc public static func isInitialized() -> Swift.Bool
+  @objc public func configure(with dictionary: [Swift.AnyHashable : Any]!)
+  @objc public func deleteLocalDataBase()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class StringUtils : ObjectiveC.NSObject {
+  @objc public static func firstDigits(from inputDigits: Swift.Int, input: Swift.String?) -> Swift.String?
+  @objc public static func lastDigits(from inputDigits: Swift.Int, input: Swift.String?) -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class BMNotificationRetriever : BMTCoreSDK.BMLiveUpdateRetriever {
+  @objc override dynamic public func updateNotificationName() -> Swift.String?
+  @objc override dynamic public func cache() -> BMTCoreSDK.BMSessionCache?
+  @objc override dynamic public func callbackLocalData(_ data: [Any]?, errors: [Any]?)
+  @objc override dynamic public func callbackRemoteData(_ data: [Any]?, errors: [Any]?)
+  @objc override dynamic public func callbackChangedLoading(_ isLoading: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BTMKMenuItem : ObjectiveC.NSObject {
+  @objc public var title: Swift.String?
+  @objc public var screenTitle: Swift.String?
+  @objc public var subtitle: Swift.String?
+  @objc public var selectedImageName: Swift.String?
+  @objc public var unselectedImageName: Swift.String?
+  @objc public var action: BMTCoreSDK.BTMKMenuItemAction?
+  @objc public var isHaconScreen: Swift.Bool
+  @objc override dynamic public init()
+  @objc public func performAction(sender: Any)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BMActionSheetUtility : ObjectiveC.NSObject {
+  @objc public static func presentActionSheet(title: Swift.String?, message: Swift.String?, cancelTitle: Swift.String?, actions: [Swift.String], buttonHiddenStatus: [Swift.Bool], completion: @escaping (Swift.Int) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ControllerUtil : ObjectiveC.NSObject {
+  @objc public static var topViewController: UIKit.UIViewController? {
+    @objc get
+  }
+  @objc public static func topViewController(withRootViewController rootViewController: UIKit.UIViewController?) -> UIKit.UIViewController?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class CaptureDetector : ObjectiveC.NSObject {
+  @objc public static let shared: BMTCoreSDK.CaptureDetector
+  @objc public static let kCaptureStatusChangedNotification: Swift.String
+  @objc override dynamic public init()
+  @objc public func isCapturing() -> Swift.Bool
+  @objc public class func triggerDetectorTimer()
+  @objc public func checkCurrentCapturingStatus(_ timer: Foundation.Timer?)
+  @objc public class func stopDetectorTimer()
+  @objc public class func hideScreenWhenCaptures()
+  @objc deinit
+}
+extension UIKit.UIApplication {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func currentUIWindow() -> UIKit.UIWindow?
+}
+@_inheritsConvenienceInitializers @objc public class OrganizationConfigurationParser : BMTCoreSDK.BMNetworkResponseParser {
+  public static func parseOrganizationConfigurationFromJSON(json: [Swift.AnyHashable : Any])
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Foundation.DateFormatter {
+  public class func dateStringWithDefaultLocaleFrom(date: Foundation.Date) -> Swift.String
+  public class func timeStringWithDefaultLocaleFrom(date: Foundation.Date) -> Swift.String
+  public class func dateAndTimeStringWithDefaultLocaleFrom(date: Foundation.Date) -> Swift.String
+  @objc dynamic public class func dateStringWithCurrentLocaleFrom(date: Foundation.Date) -> Swift.String
+  @objc dynamic public class func timeStringWithCurrentLocaleFrom(date: Foundation.Date) -> Swift.String
+  public class func dateAndTimeStringWithCurrentLocaleFrom(date: Foundation.Date) -> Swift.String
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class BMWLDropdownUnderlineButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @objc deinit
+}
+public let kSWIFT_DEFAULT_CONTENT_INSET: CoreFoundation.CGFloat
+public let kSWIFT_DEFAULT_SMALL_INSET: CoreFoundation.CGFloat
+public let kPLACE_ORDER_EDGE_OFFSET: CoreFoundation.CGFloat
+public let kPADDING_OFFSET: CoreFoundation.CGFloat
+public let kDEFAULT_SHADOW_HEIGHT: CoreFoundation.CGFloat
+public let kPLACE_ORDER_BOTTOM_SPACE: CoreFoundation.CGFloat
+public let kPLACEHOLDER_BUTTON_HEIGHT: CoreFoundation.CGFloat
+public let kVALUE_WALLET_VIEW_HEIGHT: CoreFoundation.CGFloat
+public let kEMPTY_STATE_ICON_DIMENSION: CoreFoundation.CGFloat
+public let kDEFAULT_BORDER_COLOR: UIKit.UIColor?
+public let kDEFAULT_BUTTON_DISABLE_STATE_BG_COLOR: UIKit.UIColor?
+public let kDEFAULT_PLACEHOLDER_TEXT_COLOR: UIKit.UIColor?
+public let kDEFAULT_GRAY_COLOR: UIKit.UIColor?
+public let kDEFAULT_TEXT_GRAY_COLOR: UIKit.UIColor?
+public let kSWIFT_IS_IPHONE_5_SCREEN: Swift.Bool
+@objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor @preconcurrency open class BMWebViewController : BMTCoreSDK.BMViewController {
+  @objc @_Concurrency.MainActor @preconcurrency public var urlString: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var navTitle: Swift.String?
+  @objc @_Concurrency.MainActor @preconcurrency public var webView: WebKit.WKWebView?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension BMTCoreSDK.BMWebViewController : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+}
+@_inheritsConvenienceInitializers @objc public class BMPSImageDownloadManager : ObjectiveC.NSObject {
+  @objc public func fetchImage(withURLString imageURLString: Swift.String, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol Cachable {
+}
+extension UIKit.UIImageView : BMTCoreSDK.Cachable {
+}
+extension BMTCoreSDK.Cachable where Self : UIKit.UIImageView {
+  public typealias SuccessCompletion = (Swift.Bool) -> ()
+  public func loadImageUsingCacheWithURLString(_ URLString: Swift.String, placeHolder: UIKit.UIImage?, completion: @escaping Self.SuccessCompletion)
+}
+@objc public enum DateFormat : Swift.Int {
+  case ISO8601
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class BMTDateUtility : ObjectiveC.NSObject {
+  @objc public static func getAndFormatDate(date: Foundation.Date, format: BMTCoreSDK.DateFormat) -> Swift.String
+  @objc public static func todayComponents() -> Foundation.DateComponents
+  @objc public static func isValidDate(month: Swift.String, year: Swift.String) -> Swift.Bool
+  @objc public static func detectDateFormatAndValidity(_ dateString: Swift.String) -> Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BMWLImages : ObjectiveC.NSObject {
+  @objc public static func imageOfCrossWithColor(_ color: UIKit.UIColor) -> UIKit.UIImage
+  @objc public static func drawCrossWithPrimaryColor(primaryColor: UIKit.UIColor)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class BMUUIDIdentifier : ObjectiveC.NSObject {
+  @objc public class func applicationInstallationIdentifier() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum NetworkReachabilityStatus : Swift.Int {
+  case unknown = -1
+  case notReachable = 0
+  case reachableViaCellular = 1
+  case reachableViaWiFi = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class NetworkReachabilityManager : ObjectiveC.NSObject {
+  @objc public static let shared: BMTCoreSDK.NetworkReachabilityManager
+  @objc public var reachabilityStatusChangeBlock: ((BMTCoreSDK.NetworkReachabilityStatus) -> Swift.Void)?
+  @objc public var isReachable: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+  @objc public func startMonitoring()
+}
+extension UIKit.UIAccessibility {
+  public static func setFocusTo(_ object: Any?)
+}
+@objc extension UIKit.UIViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public var previousViewController: UIKit.UIViewController? {
+    @objc get
+  }
+}
+@objc public class BMNetworkRequestBuilder : ObjectiveC.NSObject {
+  @objc public init(url: Foundation.URL?, baseURL: Foundation.URL, path: Swift.String, method: Swift.String, parameters: [Swift.String : Any]?, headers: [Swift.String : Swift.String]?, handleWeakConnectivity: Swift.Bool)
+  @objc public func buildURLRequest() -> Foundation.URLRequest?
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class BMPaymentProductView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public let quantityLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let nameLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let productCostLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let originDestinationLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let subscriptionLabel: UIKit.UILabel
+  @objc @_Concurrency.MainActor @preconcurrency final public let parkingDetailsLabel: UIKit.UILabel
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension BMTCoreSDK.BMPaymentProductView : BMTCoreSDK.BTMKThemeDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func applyTheme(from organization: BMTCoreSDK.BTMKOrganization!)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class ChildOrgUrlUtil : ObjectiveC.NSObject {
+  @objc public static func checkAndUpdateEndPoint(endPoint: Swift.String) -> Swift.String
+  @objc public static func checkAndUpdateEndPointWithOrgUuid(endPoint: Swift.String) -> Swift.String
+  @objc public static func getChildOrgDict() -> [Swift.String : Any]?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum DataStoreType : Swift.Int {
+  case CoreData
+  case Sqlite
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public func calculateLabelWidth(for text: Swift.String, font: UIKit.UIFont) -> CoreFoundation.CGFloat
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func getCurrentBodyStyleFontSize() -> CoreFoundation.CGFloat
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class NotificationDatabaseManager : ObjectiveC.NSObject {
+  @objc public func updateNotifications(notification: BMTCoreSDK.BMNotification)
+  @objc public func checkAndUpdateRemoteNotifications(notifications: [BMTCoreSDK.BMNotification], completion: BMTCoreSDK.NotificationListCompletion?)
+  @objc public func insertNotifications(notifications: [BMTCoreSDK.BMNotification], completion: BMTCoreSDK.NotificationListCompletion?)
+  @objc public func fetchNotifications(completion: BMTCoreSDK.NotificationListCompletion?)
+  @objc public func deleteNotifications()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency final public class CapturePreventingView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency final public var preventScreenCapture: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor @preconcurrency public init(contentView: UIKit.UIView? = nil)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor @preconcurrency final public func setup(contentView: UIKit.UIView)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AppIDStorage) public class AppIDStorage : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension BMTCoreSDK.AppIDStorage {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<BMTCoreSDK.AppIDStorage>
+  @objc @NSManaged dynamic public var key: ObjectiveC.NSObject? {
+    @objc get
+    @objc set
+  }
+}
+extension BMTCoreSDK.AppIDStorage : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+@_inheritsConvenienceInitializers @objc(CNotification) public class CNotification : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension BMTCoreSDK.CNotification {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<BMTCoreSDK.CNotification>
+  @objc @NSManaged dynamic public var key: ObjectiveC.NSObject? {
+    @objc get
+    @objc set
+  }
+}
+extension BMTCoreSDK.CNotification : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+extension BMTCoreSDK.FontSize : Swift.Equatable {}
+extension BMTCoreSDK.FontSize : Swift.Hashable {}
+extension BMTCoreSDK.FontSize : Swift.RawRepresentable {}
+extension BMTCoreSDK.DateFormat : Swift.Equatable {}
+extension BMTCoreSDK.DateFormat : Swift.Hashable {}
+extension BMTCoreSDK.DateFormat : Swift.RawRepresentable {}
+extension BMTCoreSDK.NetworkReachabilityStatus : Swift.Equatable {}
+extension BMTCoreSDK.NetworkReachabilityStatus : Swift.Hashable {}
+extension BMTCoreSDK.NetworkReachabilityStatus : Swift.RawRepresentable {}
+extension BMTCoreSDK.DataStoreType : Swift.Equatable {}
+extension BMTCoreSDK.DataStoreType : Swift.Hashable {}
+extension BMTCoreSDK.DataStoreType : Swift.RawRepresentable {}
