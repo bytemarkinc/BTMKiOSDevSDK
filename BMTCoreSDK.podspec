@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   BMTCoreSDK is used for core functionalities in ios.This is private repo of Bytemark.
                   DESC
-  s.homepage         = 'https://github.com/bytemarkinc/BMTCoreSDK'
+  s.homepage         = 'https://github.com/bytemarkinc/BTMKiOSDevSDK'
   s.license          = { :type => 'No License', :text => 'Copyright (c) 2025 Bytemark' }
   s.author           = { 'Bytemark' => 'chandan@bytemark.co' }
-  s.source           = { :git => 'https://github.com/bytemarkinc/BMTCoreSDK.git', :tag => "v{s.version}" }
+  s.source           = { :git => 'https://github.com/bytemarkinc/BTMKiOSDevSDK.git', :branch => 'develop' }
   s.ios.deployment_target = '16.0'
   s.public_header_files = "BMTCoreSDK/**/*.h"
   s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
